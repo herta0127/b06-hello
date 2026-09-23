@@ -1,0 +1,31 @@
+# ---- 编译产物（C / C++）----
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dSYM/
+a.out
+build/
+dist/
+
+# ---- 编辑器 / IDE ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*~
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 脚本缓存 / 虚拟环境 ----
+__pycache__/
+*.pyc
+.venv/
